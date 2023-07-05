@@ -19,8 +19,8 @@ AddEventHandler('hitmarker:client:hit', function(bone)
     end
 end)
 
--- 自定义音频播放
--- 参数: audio: string(音频文件名称), volume: number(音频播放音量), loop: boolean(音频是否循环)
+-- Custom Audio Play Event
+-- Arg: audio: string(Audio File Name), volume: number(Audio Play Volume), loop: boolean(is Audio loop?)
 AddEventHandler('audio:client:play', function(audio, volume, loop)
     SendNUIMessage({
         type = 'play',
