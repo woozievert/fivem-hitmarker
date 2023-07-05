@@ -5,7 +5,8 @@ name 'Hit Marker & Simple Custom Audio Player'
 ui_page 'nui/index.html'
 
 client_scripts {
-	'client/main.lua'
+	'client/main.lua',
+	'config.lua'
 }
 
 shared_scripts 'config.lua'
