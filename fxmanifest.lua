@@ -1,15 +1,17 @@
 fx_version 'cerulean'
-
 game 'gta5'
-
+author 'yoyankee'
+name 'Hit Marker & Simple Custom Audio Player'
 ui_page 'nui/index.html'
 
-server_scripts {
-	'server.lua'
+client_scripts {
+	'client/main.lua'
 }
 
-client_scripts {
-	'client.lua'
+shared_scripts 'config.lua'
+
+server_scripts {
+	'server/main.lua'
 }
 
 files {
