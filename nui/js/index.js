@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     let loop = false;
                     if (data.loop) loop = true;
                     const hitMarker = new SoundPlayer(data.audio, data.volume, loop);
-                    console.log(hitMarker)
                 }
                 else throw new Error('[AUDIO PLAYER] ERROR DATA ARGS');
             }
